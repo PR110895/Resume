@@ -1,0 +1,144 @@
+/* body{
+    background-color: aquamarine;
+    color: black;
+} */
+.container{
+    display: grid;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-gap: 0.1rem;
+    grid-template-columns: 400px auto;
+    grid-template-areas:
+     'navbar section section'
+     'navbar section section';
+     padding: 12px 23px;
+}
+#navbar{
+    grid-area: navbar;
+    background-color: rgb(16, 193, 216);
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 2px;
+}
+#navbar img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#navbar h2{
+    font-weight: bold;
+    font-size: 2rem;
+}
+#navbar h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#Email{
+    text-align: center;
+
+}
+#Phone{
+
+    text-align: center;
+}
+.education{
+    display: grid;
+    margin: 10px;
+    padding: 5px;
+    grid-area: navbar;
+    
+}
+.education ul {
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: left;
+}
+.education ul li a {
+    list-style: none;
+    background-color: rgb(18, 205, 230);
+    border: 1px solid rgb(10, 204, 218);
+
+}
+    
+#communication a img{
+    height: 50px;
+    width: 25px;
+}
+#reference{
+    margin-top: 300px;
+    display: grid;
+
+}
+#reference ul {
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    display: grid;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: left;
+
+}
+.education ul li a:hover{
+    background-color: white;
+}
+#section1{
+    display: grid;
+   
+    
+}
+.item1{
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 2px;
+    padding: 2px;
+    
+    
+}
+.item2{
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 2px;
+    padding: 2px;
+
+}
+.item3{
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 2px;
+    padding: 2px;
+
+}
+.iten4{
+    align-items: center;
+    border: 2px solid red;
+    margin: 2px;
+    padding: 2px;
+}
+h1{
+    font-weight: bolder;
+}
+h4{
+    font-weight: bolder;
+}
+.COMPANY1{
+    font-weight: bold;
+
+}
+.position1{
+    font-weight: bold;
+
+}
+.duration{
+text-align: end;
+}
+    
+
+    
